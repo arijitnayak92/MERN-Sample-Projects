@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Cairo|Cinzel|Exo|Exo+2|Orbitron|Play|Poiret+One|Questrial|Quicksand|Rokkitt|Tinos');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+.form-signup{
+    margin-top: 9%;
+}
+.notinoti{
+  animation: scale-display .3s;
+}
+
+@keyframes scale-display {
+	0% {
+		opacity: 0;
+		transform: scale(0);
+    -webkit-transform: scale(0);
+	}
+
+	100% {
+		opacity: 1;
+		transform: scale(1);
+    -webkit-transform: scale(1);
+	}
+}
+
+
+.srm{
+    height: 50px;
+    width: 100px;
+}
+
+.notinoti{
+  position: fixed;
+  left: 0;
+  right: 0;
+  top:0;
+  background-color: #fafafa;
+  padding: 0;
+  margin: auto;
+  overflow-y: auto;
+  border-radius: 2px;
+  will-change: top, opacity;
+  width: 100%;
+  height: 100%;
+  z-index:999;
+  background-position: center top;
+  background-size:cover;
+  animation: scale-display .3s;
+}
+
+@keyframes scale-display {
+	0% {
+		opacity: 0;
+		transform: scale(0);
+    -webkit-transform: scale(0);
+	}
+
+	100% {
+		opacity: 1;
+		transform: scale(1);
+    -webkit-transform: scale(1);
+	}
+}
+
+.dig{
+  position: fixed;
+  left: 0;
+  right: 0;
+  padding: 0;
+  top: 64px;
+  margin: auto;
+  overflow-y: auto;
+  z-index:999;
+}
+
+.float-left{
+  width: 40px;
+  position: fixed;
+  left: 0;
+  padding: 4px;
+  margin: auto;
+  overflow-y: auto;
+  z-index:999;
+}
+
+.form-con{
+	padding: 25px;
+}
+.go:hover,
+.go:focus {
+    cursor: pointer;
+}
+::-webkit-scrollbar {
+	display: none;
+  }
